@@ -50,3 +50,15 @@ ___
 ___
         adicioanrCardEstudo()
 ___
+# Métodos
+
+.innerHTML (Ler ou Modificar conteudo)
+.innerText (Ler ou Modificar texto)
+Propriedades style (Ler e Sobrescrever as regras CSS)
+createElement()
+createTextNode()
+appendChild()
+hasAttribute()
+getAttribute()
+setAttribute()
+removeAttribute()
