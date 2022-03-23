@@ -24,7 +24,10 @@ h1 {
   width: 80%;
   margin: 2em 10%;
 }
-
+.subtitle{
+  text-align: center;
+  margin: 2rem 2.5rem 0 2.5rem;
+}
 .item {
   width: 30em;
   background-color: white;
@@ -72,6 +75,8 @@ input {
     /* Para harmonizar o look & feel das bordas nos campos de texto*/
     border: 1px solid #999;
     border-radius: 5px;
+
+    padding-left: 0.5rem;
 }
 input:focus, textarea:focus {
     /* Dar um pouco de destaque nos elementos ativos */
@@ -85,7 +90,8 @@ input:focus, textarea:focus {
 }
 button {
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
-    margin-left: .5em;
+    border-radius: 10px;
+    padding: 0.5rem;
 }
 
 /* ------------------------------ Estilos para o tema escuro (Dark-Mode) ----------------------------------------------- */

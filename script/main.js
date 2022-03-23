@@ -1,37 +1,28 @@
-// Capitura as informações do formulário
+// Função auxiliar para selecionar os id
+function selectId(id) {
+  return document.getElementById(id);
+}
 
-let imge = document.getElementById("campoURL");
-let titleCard = document.getElementById("campoTitulo");
-let descCard = document.getElementById("campoDecription");
+//Pegando os valores do campo
+let linkImagem = selectId("imgUrl");
+let title = selectId("title-form");
+let descricao = selectId("desc-form");
 
-let botaoSalvar = document.getElementById("salvar");
+let salvar = selectId("salvar");
 
-//Funcão
-botaoSalvar.addEventListener("click", function (evento) {
-  evento.preventDefault();
+salvar.addEventListener("click", function (event) {
+  event.preventDefault();
+  insereNaLista(linkImagem, title, descricao);
 });
 
-function criaCard(title, desc, img) {
-  //new obj
-  var elementDivItem = document.createElement("div").classList.add("item");
-  var elementImg = document.createElement("img");
-  var elementTitleh2 = document.createElement("h2");
-  var elementDescriptionP = document.createElement("p");
-
-  //No
-  var newTitle = document.createTextNode(document.getElementById(campoTitulo));
-  var newDescription = document.createTextNode(
-    document.getElementById(campoDecription)
-  );
-
-  //adiciona o nó de texto à nova div criada
-  elementImg.setAttribute("src", document.getElementById(campoURL));
-
-  elementTitleh2.appendChild(newTitle);
-
-  elementDescriptionP.appendChild(newDescription);
-
-  // adiciona o novo elemento criado e seu conteúdo ao DOM
-
-  elementDivItem;
+function insereNaLista(linkImagem, title, descricao) {
+  // Criando o elemento item
+  const item = `<div class="item">
+  <img src="${linkImagem.value}"/>
+  <h2>${title.value}</h2>
+  <p>${descricao.value}</p>
+  </div>`;
+  //Pegando o destino
+  const listaDeEstudo = selectId("listaDeEstudo");
+  listaDeEstudo.innerHTML = listaDeEstudo.innerHTML + item;
 }
