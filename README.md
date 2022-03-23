@@ -4,6 +4,20 @@
 
 Refatorando modelo "A Familia dos Felinos" da atividade A5S.
 
+## Objetivo
+
+Desenvolver um site que qualquer pessoa possa quardar ou listar o que estudou ou esta em estudo podendo customizar cards com imagem, titulo e um resumo.
+
+## Sobre a atividade
+
+O grupo percebeu que ainda existem certos bloqueios em relação a logica coputacional, isso se da ao fato do pouco dominio da programação, tentou-se evitar buscar fontes externas de informação como: foruns, tutoriais e etc;
+
+Tentamos aplicar o que já foi visto nas atividades práticas, durante as aulas como o professor, consultamos os conteúdos e videos do playgrand e a própria documentação do MDN web Docs.
+
+Entretanto, conseguimos aplicar o que foi estabelecido na atividade.
+
+Ainda está longe de ser o melhor modelo, mas estamos dandos os primeiros passsos.
+
 ## Atividade
 
 Olá Houser, tudo bem com você?
@@ -53,10 +67,6 @@ Esta atividade tem como objetivo servir como primeiro instrumento avaliativo da 
 
 ## 🔎 Links
 
-[
-View: https://codepen.io/pen?template=bGaBLLW
-](
-https://codepen.io/pen?template=bGaBLLW
-)
+[View: https://codepen.io/pen?template=bGaBLLW](https://codepen.io/pen?template=bGaBLLW)
 
 [Site: https://checkpoint-front-end-ctd-67fravbvj-neresfabio.vercel.app/](https://checkpoint-front-end-ctd-67fravbvj-neresfabio.vercel.app/)

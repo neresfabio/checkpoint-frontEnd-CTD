@@ -10,6 +10,7 @@ let descricao = selectId("desc-form");
 
 let salvar = selectId("salvar");
 
+
 salvar.addEventListener("click", function (event) {
   event.preventDefault();
   insereNaLista(linkImagem, title, descricao);
@@ -26,3 +27,5 @@ function insereNaLista(linkImagem, title, descricao) {
   const listaDeEstudo = selectId("listaDeEstudo");
   listaDeEstudo.innerHTML = listaDeEstudo.innerHTML + item;
 }
+
+
