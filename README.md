@@ -45,8 +45,8 @@ Esta atividade tem como objetivo servir como primeiro instrumento avaliativo da 
 
 # Métodos
 
-Tamplate String
-Funções
+- Tamplate String
+- Funções
 - .getElementById;
 - .innerHTML;
 - .addEventListener;
