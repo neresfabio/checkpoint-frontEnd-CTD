@@ -39,7 +39,7 @@ Esta atividade tem como objetivo servir como primeiro instrumento avaliativo da 
 
 - [X] Armazenar os valores.
 
-- [X] Criar função do butão cadastrar.
+- [X] Criar função do butão enviar.
 
 - [x] Listar os cards criados
 
@@ -51,10 +51,12 @@ Funções
 .innerHTML;
 .addEventListener;
 
-## Links
+## 🔎 Links
 
-🔎[
+[
 View: https://codepen.io/pen?template=bGaBLLW
 ](
 https://codepen.io/pen?template=bGaBLLW
 )
+
+[Site: https://checkpoint-front-end-ctd-67fravbvj-neresfabio.vercel.app/](https://checkpoint-front-end-ctd-67fravbvj-neresfabio.vercel.app/)
