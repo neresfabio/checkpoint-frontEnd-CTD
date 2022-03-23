@@ -12,13 +12,13 @@ Esta atividade tem como objetivo servir como primeiro instrumento avaliativo da 
 
 **Instruções e requisitos do entregável**
 
-1. [ x ] O tema da aplicação é de sua preferência. Pode ser sobre carros, animes, cidades, etc.
+- [x] 1. O tema da aplicação é de sua preferência. Pode ser sobre carros, animes, cidades, etc.
 
-2. [ x ] A aplicação deve ser responsiva.
+- [x] 2. A aplicação deve ser responsiva.
 
-3. [ x ] A aplicação consiste em um formulário que, ao ser preenchido, cria cards com as informações preenchidas.
+- [x] 3. A aplicação consiste em um formulário que, ao ser preenchido, cria cards com as informações preenchidas.
 
-4. [ x ] Sobre o formulário:
+- [x] 4. Sobre o formulário:
 
     a. O formulário deve ter pelo menos 4 campos: Título, Descrição e URL da imagem e um botão de submit.
     b. Após o preenchimento, ao clicar no botão de submit, as informações devem ser adicionadas à lista de cards na página.
@@ -26,19 +26,19 @@ Esta atividade tem como objetivo servir como primeiro instrumento avaliativo da 
     Dica
     - Você pode acrescentar outros campos ao formulário para deixar a aplicação mais completa.
 
-5. [ x ] Sobre os Cards:
+- [x] 5. Sobre os Cards:
     a.  Os cards devem ter uma imagem e constar todas as informações previamente preenchidas no formulário.
     b. O comportamento se dará de forma que as informações preenchidas sejam exibidas na seção de cards.
 
 # Lógica.
 
-- [ x ] Verificar se os campos estão vazios.
+- [x] Verificar se os campos estão vazios.
 
-- [ X ] Armazenar os valores.
+- [X] Armazenar os valores.
 
-- [ X ] Criar função do butão cadastrar.
+- [X] Criar função do butão cadastrar.
 
-- [ x ] Listar os cards criados
+- [x] Listar os cards criados
 
 # Métodos
 
