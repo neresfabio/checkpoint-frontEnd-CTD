@@ -47,9 +47,9 @@ Esta atividade tem como objetivo servir como primeiro instrumento avaliativo da 
 
 Tamplate String
 Funções
-.getElementById;
-.innerHTML;
-.addEventListener;
+- .getElementById;
+- .innerHTML;
+- .addEventListener;
 
 ## 🔎 Links
 
